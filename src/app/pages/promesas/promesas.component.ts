@@ -3,7 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-promesas',
   templateUrl: './promesas.component.html',
-  styleUrls: ['./promesas.component.css']
+  styles: [
+  ]
 })
 export class PromesasComponent implements OnInit {
 
@@ -49,6 +50,5 @@ export class PromesasComponent implements OnInit {
     });
 
   }
-
 
 }
