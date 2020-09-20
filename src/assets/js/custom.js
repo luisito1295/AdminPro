@@ -4,7 +4,8 @@ Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: js
 */
-const costumInitFunctions = () => {
+
+const customInitFunctions = () => {
     $(function() {
         "use strict";
         $(function() {
@@ -141,4 +142,4 @@ const costumInitFunctions = () => {
     });
 }
 
-costumInitFunctions();
+customInitFunctions();
